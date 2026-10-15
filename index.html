@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Ананасовый улун: светлый китайский чай с ароматом спелого ананаса. Выберите фасовку от 100 г до 5 кг.">
+  <meta name="robots" content="noindex, nofollow">
+  <meta name="theme-color" content="#faf9f2">
+  <title>Ананасовый улун — Чайный Бум</title>
+  <link rel="icon" href="assets/logo.png" type="image/png">
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#product">Перейти к товару</a>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="https://teaboom.ru/" aria-label="Чайный Бум — официальный сайт">
+        <img src="assets/logo.png" width="56" height="56" alt="">
+        <span><span class="brand-name">Чайный Бум</span><span class="brand-caption">Интернет-магазин чая и посуды</span></span>
+      </a>
+      <nav class="header-nav" aria-label="Главная навигация">
+        <a href="https://teaboom.ru/category-root">Каталог чая</a>
+        <a href="https://teaboom.ru/shipping/">Доставка</a>
+        <a href="https://teaboom.ru/contact">Контакты</a>
+      </nav>
+      <a class="header-phone" href="tel:+74951201551">+7 (495) 120-15-51<span>Хороший чай начинается с общения</span></a>
+    </div>
+  </header>
+
+  <main class="container">
+    <nav class="breadcrumbs" aria-label="Хлебные крошки">
+      <ol>
+        <li><a href="https://teaboom.ru/">Главная</a></li>
+        <li><a href="https://teaboom.ru/category-ulun">Улун</a></li>
+        <li aria-current="page">Ананасовый улун</li>
+      </ol>
+    </nav>
+
+    <article id="product" class="product" aria-labelledby="product-title">
+      <div class="product-visual">
+        <figure class="product-photo">
+          <img src="assets/pineapple-oolong.jpg" width="970" height="970" fetchpriority="high" alt="Ананасовый улун: скрученные зелёные чайные листья с кусочками цукатов">
+          <figcaption class="photo-label">Светлый улун · Китай</figcaption>
+          <button class="zoom-button" type="button" aria-label="Увеличить изображение товара" aria-haspopup="dialog" hidden>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="m16 16 4 4M8 10.5h5m-2.5-2.5v5"/></svg>
+          </button>
+        </figure>
+        <p class="photo-caption"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 4C9 3 3 8 5 14c2 7 13 7 15-10Z"/><path d="M4 21 15 10"/></svg>Крупный лист. Яркий аромат. Ваш чайный момент.</p>
+      </div>
+
+      <div class="product-info">
+        <a class="eyebrow" href="https://teaboom.ru/category-aromatizirovannyj-ulun">Ароматизированный улун <span aria-hidden="true">↗</span></a>
+        <h1 id="product-title">Ананасовый улун</h1>
+        <p class="product-intro">Нежность светлого улуна<br>и солнечный вкус ананаса.</p>
+
+        <form class="purchase-form" id="purchase-form">
+          <fieldset class="packaging" disabled>
+            <legend>Выберите фасовку</legend>
+            <div class="packaging-options">
+              <label class="pack-option"><input type="radio" name="weight" value="100" checked><span>100 г<svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 8 3 3 5-6"/></svg></span></label>
+              <label class="pack-option"><input type="radio" name="weight" value="500"><span>500 г<svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 8 3 3 5-6"/></svg></span></label>
+              <label class="pack-option"><input type="radio" name="weight" value="1000"><span>1000 г<svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 8 3 3 5-6"/></svg></span></label>
+              <label class="pack-option"><input type="radio" name="weight" value="5000"><span>5000 г<svg viewBox="0 0 16 16" aria-hidden="true"><path d="m4 8 3 3 5-6"/></svg></span></label>
+            </div>
+          </fieldset>
+
+          <div class="purchase-details" aria-live="polite" aria-atomic="true">
+            <p class="sku">Артикул: <span id="product-sku">01306</span></p>
+            <div class="price-row">
+              <p class="current-price"><span class="sr-only">Цена: </span><span id="product-price">326,40 ₽</span></p>
+              <p class="previous-price"><span class="sr-only">Старая цена: </span><s id="product-old-price">349,20 ₽</s></p>
+              <span class="discount" id="product-discount">−7%</span>
+            </div>
+            <p class="savings">Ваша экономия — <span id="product-savings">22,80 ₽</span></p>
+          </div>
+
+          <button class="cart-button" type="submit" disabled>
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 4h2l2.5 11h11l2-8H6"/><circle cx="9" cy="20" r="1"/><circle cx="18" cy="20" r="1"/></svg>
+            В корзину
+            <span class="button-weight" id="button-weight">100 г</span>
+          </button>
+          <p class="purchase-note">Выберите свой формат чайного удовольствия</p>
+          <p class="cart-status" id="cart-status" role="status"></p>
+          <noscript><p class="noscript-message">Показана фасовка 100 г. Для переключения фасовок включите JavaScript.</p></noscript>
+        </form>
+
+        <div class="taste-note">
+          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 10h13v6a5 5 0 0 1-5 5H9a5 5 0 0 1-5-5Zm13 1h2a3 3 0 0 1 0 6h-2M7 3v3m4-4v4m4-3v3"/></svg>
+          <p>Свежая зелень и спелый ананас.<br><span>Светло-янтарный настой, мягкое послевкусие.</span></p>
+        </div>
+      </div>
+
+      <section class="product-description" aria-labelledby="description-title">
+        <div class="section-heading"><span class="section-number" aria-hidden="true">01 /</span><h2 id="description-title">О чае</h2></div>
+        <p>Светлый фуцзяньский улун с ароматом ананаса. Крупные изумрудные листья, скрученные в плотные шарики, медленно раскрываются в горячей воде, наполняя её ароматом свежей зелени и спелого ананаса.</p>
+        <p class="ingredients"><strong>Состав</strong>Китайский бирюзовый чай, цукаты, натуральные ароматические масла.</p>
+      </section>
+
+      <section class="brewing" aria-labelledby="brewing-title">
+        <div class="section-heading"><span class="section-number" aria-hidden="true">02 /</span><h2 id="brewing-title">Заварите свой момент</h2></div>
+        <dl class="brewing-list">
+          <div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M10 14.5V5a2 2 0 0 1 4 0v9.5a4 4 0 1 1-4 0Z"/><path d="M12 10v8m5-12h3m-3 4h2"/></svg><dt>Температура</dt><dd>80–85 °C</dd></div>
+          <div><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v5l3 2M9 2h6m-3 0v3"/></svg><dt>Время</dt><dd>1–3 минуты</dd></div>
+          <div><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3 9h14v7a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5Zm14 1h2a3 3 0 0 1 0 6h-2M7 3v3m5-3v3"/></svg><dt>Количество</dt><dd>2 ч. л. / 500 мл</dd></div>
+        </dl>
+      </section>
+    </article>
+  </main>
+
+  <footer class="site-footer"><div class="container footer-inner"><p>Чайный Бум <span>— чай, который объединяет.</span></p><a href="https://teaboom.ru/product/ananasovij-ulun">Товар на Teaboom.ru <span aria-hidden="true">↗</span></a></div></footer>
+
+  <dialog class="image-dialog" aria-label="Увеличенное изображение ананасового улуна">
+    <button class="dialog-close" type="button" aria-label="Закрыть изображение" autofocus><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 6 12 12M6 18 18 6"/></svg></button>
+    <img src="assets/pineapple-oolong.jpg" width="970" height="970" alt="Крупный план листьев ананасового улуна с цукатами">
+  </dialog>
+</body>
+</html>

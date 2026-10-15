@@ -1,0 +1,9 @@
+work/
+output/
+outputs/
+dist/
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.idea/
